@@ -16,8 +16,6 @@
 #ifdef __Raspberry_Pi
 	typedef bool boolean;
 	typedef char * String;
-	#define max(a,b) (a>b?a:b)
-	#define min(a,b) (a<b?a:b)
 #endif
 
 #if defined(__cplusplus) && !defined(__Raspberry_Pi)
